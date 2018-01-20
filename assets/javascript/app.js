@@ -33,7 +33,7 @@ $(document).ready(function () {
             e.preventDefault();
 
             var userQuery = $(this).data('search');
-            var key = "&api_key=dc6zaTOxFJmzC";
+            var key = "&api_key=nWtTtgTIgZK2el33kgRE25ZgDikKgEXi";
             var limit = "&limit=10"
             var reqUrl = "https://api.giphy.com/v1/gifs/search?q=" + userQuery + limit + key;
             // console.log(reqUrl);
